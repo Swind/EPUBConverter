@@ -21,7 +21,7 @@ object Converter extends Logging{
   val resultFolder = "./Result"
   val unzipTmpFolder = "./tmpFolder/unzip"
   val converterTmpFolder = "./tmpFolder/converter"
-
+/*
   val zipArchive = new ZipArchive
 
   def main(args: Array[String]) {
@@ -50,4 +50,5 @@ object Converter extends Logging{
   def convertFileNameOnWindows(fileName:String)={
     converter.convertString(fileName, UTF8S, UTF8T)
   }
+  */
 }
